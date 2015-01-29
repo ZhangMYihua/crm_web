@@ -6,6 +6,10 @@ class Rolodex
 		@id = 1000
 	end
 
+	def find(id)
+		@contacts.find {|contact| contact.id == id}
+	end
+
 	def add_contact(contact)
 	contact.id = @id
 	@contacts << contact
