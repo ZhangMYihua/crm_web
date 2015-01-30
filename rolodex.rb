@@ -15,4 +15,9 @@ class Rolodex
 	@contacts << contact
 	@id+= 1
 	end
+
+	 def remove_contact(contact)
+    @contacts.delete(contact)
+  end
+  
 end 
