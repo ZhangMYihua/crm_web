@@ -17,6 +17,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+body {
+	background: url(grunge-texture-iii_1697602.jpg) no-repeat;
+}
+
 header {
 	color: white;
 	width: 395px;
@@ -38,6 +42,7 @@ ul.menu li.tag a {
 	padding: 5px 0;
 	text-decoration: none;
 	color: black;
+	background: rgba(255,255,255, 0.4);
 	display: block;
 	width: 150px;
 	border: 2px solid black;
@@ -49,6 +54,23 @@ ul.menu li.tag a:hover {
 	background: black;
 }
 
+li.tag a {
+	margin: 0 auto ;
+	padding: 5px 0;
+	text-decoration: none;
+	color: black;
+	background: rgba(255,255,255, 0.4);
+	display: block;
+	width: 150px;
+	border: 2px solid black;
+	border-radius: 50px;
+	margin-top: 20px
+}
+
+li.tag a:hover {
+	color: white;
+	background: black;
+}
 
 p.button{
 	color: white;
@@ -79,11 +101,12 @@ h1 {
 	height: 30px;
 	width: 420px;
 	margin: auto;
+	background: rgba(0, 0, 0, 0.6);
 	text-align: center;
 }
 
 h1.name {
-	width: 200px;
+	width: 350px;
 }
 
 form {
@@ -98,18 +121,10 @@ form label {
 	margin-top: 23px;
 }
 
-p.email {
+p.contacts {
 	text-align: center;
 	margin: 10px auto;
 }
-
-p.note {
-	text-align: center;
-	margin: 10px auto;
-}
-
-
-
 
 form input {
 	display: block;
@@ -138,6 +153,6 @@ input.button {
 
 footer {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 300px;
 }
 
